@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>ArrowFunction</Title>
+          <Author>andrasadam93</Author>
+          <Description>Creates a quick arrow function for JS</Description>
+          <Shortcut>arw</Shortcut>
+        </Header>
+        <Snippet>
+            <Code Language="JavaScript">
+                <![CDATA[($Params$) => {
+                    $Code$
+                  };
+                ]]>
+            </Code>
+          <Declarations>
+            <Literal>
+              <ID>Code</ID>
+              <ToolTip>Add your function code here</ToolTip>
+              <Default>console.log()</Default>
+            </Literal>
+            <Literal>
+              <ID>Params</ID>
+              <ToolTip>Add function parameters</ToolTip>
+              <Default></Default>
+            </Literal>
+          </Declarations>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>
